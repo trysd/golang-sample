@@ -28,7 +28,7 @@ func getEnv(key, fallback string) string {
 func Init() {
 	user := getEnv("PG_USER", "postgres")
 	password := getEnv("PG_PASSWORD", "postgres")
-	host := getEnv("PG_HOST", "project_gopgsql_postgresql")
+	host := getEnv("PG_HOST", "comx_db")
 	port := getEnv("PG_PORT", "5432")
 	database := getEnv("PG_DB", "postgres")
 
