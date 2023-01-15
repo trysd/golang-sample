@@ -84,10 +84,10 @@ func InsertRecord() error {
 	// }
 
 	// var tasks = []models.Task{
-	// 	{ID: u1, Title: "Tanaka", CreatedAt: time.Now(), UpdatedAt: time.Now(), Completed: true},
-	// 	{ID: u2, Title: "Sakamoto", CreatedAt: time.Now(), UpdatedAt: time.Now(), Completed: false},
+	// 	{ID: u1, Title: "testX", CreatedAt: time.Now(), UpdatedAt: time.Now(), Completed: true},
+	// 	{ID: u2, Title: "testZ", CreatedAt: time.Now(), UpdatedAt: time.Now(), Completed: false},
 	// }
-	task := models.Task{ID: u1, Title: "Tanaka", CreatedAt: time.Now(), UpdatedAt: time.Now(), Completed: true}
+	task := models.Task{ID: u1, Title: "testX", CreatedAt: time.Now(), UpdatedAt: time.Now(), Completed: true}
 
 	db = GetDB()
 	// defer CloseDB()
